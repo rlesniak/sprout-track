@@ -1,0 +1,12 @@
+{
+  "name": "Sprout Track",
+  "user": "ubuntu",
+  "install": "bash scripts/setup.sh",
+  "terminals": [
+    {
+      "name": "next-dev",
+      "command": "npm run dev"
+    }
+  ],
+  "ports": [3000]
+}
